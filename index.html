@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Description" content="COVID19 Estimation app">
+    <meta name="Description" content="Covid19 is a worl epidemic currently">
+    <title>The Estimator</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h2>Input Data form</h2>
+    <div class="main">
+        <form action="">
+          <div class="population">
+            <label for="data-population">POPULATION</label>
+            <input type="number" id="data-population" name="data-population" placeholder="Example .. 3443"  data-population required>
+          </div>
+          <div class="time_elapse">
+            <label for="data-time-to-elapse">TIME TO ELAPSE</label>
+            <input type="number" id="data-time-to-elapse" name="data-time-to-elapse" placeholder="Example ... 20" data-time-to-elapse required>
+          </div>
+          <div class="cases">
+            <label for="data-reported-cases">REPORTED CASES</label>
+            <input type="number" id="data-reported-cases" name="data-reported-cases" placeholder="Example ...33333335" data-reported-cases  required>
+          </div>
+          <div class="beds">
+            <label for="data-total-hospital-beds">TOTAL HOSPITAL BEDS</label>
+            <input type="number" id="data-total-hospital-beds" name="data-total-hospital-beds" placeholder="Example ...22" data-total-hospital-beds  required>
+          </div>
+          <div class="periodType">
+            <label for="data-period-type">PERIOD TYPE</label>
+            <select id="data-period-type" name="data-period-type" data-period-type required>
+              <option value="days">DAYS</option>
+              <option value="weeks">WEEKS</option>
+              <option value="months">MONTHS</option>
+            </select>
+          </div>
+          <div class="btn">
+            <input type="submit" value="CHECK" data-go-estimate>
+          </div>
+        </form>
+      </div>
+</body>
+</html>
