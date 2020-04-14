@@ -19,7 +19,8 @@ select{
   background-color:#fff;
   padding: 14px 21px;
   display: block;
-  border: 1px solid red;
+  border: 1px solid #ccc;
+  /* border: 1px solid red; */
   border-radius: 7px;
   margin-bottom: 5px;
 }
@@ -28,7 +29,8 @@ input[type=text],input[type=number] {
     background-color:#fff;
     padding: 14px 22px;
     display: inline-block;
-    border: 1px solid red;
+    border: 1px solid #ccc;
+    /* border: 1px solid red; */
     border-radius: 7px;
   }
 
